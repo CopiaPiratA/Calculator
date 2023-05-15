@@ -1,0 +1,30 @@
+main {
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+input {
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+}
+button {
+    font-size: 30px;
+    width: 100%;
+    height: 60px;
+}
+#equal {
+    margin: none;
+    width: 100px;
+    margin-left: 20px;
+}
+#numbers {
+    margin: auto;
+    margin-top: 40px;
+    width: 450px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+    grid-auto-rows: 90px;
+    grid-gap: 10px;
+}
